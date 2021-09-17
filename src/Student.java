@@ -8,11 +8,12 @@ public class Student {
         Scanner sc = new Scanner(System.in);
         name = sc.next();
         rollno = sc.nextInt();
-    }
-    public void showvalues()
-    {
         System.out.println(name+"  "+rollno);
     }
+//    public void showvalues()
+//    {
+//        System.out.println(name+"  "+rollno);
+//    }
 }
 
 class StudentMain
@@ -22,8 +23,8 @@ class StudentMain
          Student obj2 = new Student();
 
          obj1.getvalues();
-         obj1.showvalues();
+//         obj1.showvalues();
          obj2.getvalues();
-         obj2.showvalues();
+//         obj2.showvalues();
     }
 }
