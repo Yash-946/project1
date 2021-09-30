@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 // definition class
 class stu
 {
@@ -14,7 +13,8 @@ class stu
         name = s.nextLine();
         marks = new int[3];
 
-        for (int i = 0; i < marks.length; i++) {
+        for (int i = 0; i < marks.length; i++)
+        {
             marks[i] = s.nextInt();
         }
     }
@@ -22,7 +22,8 @@ class stu
     {
         System.out.println(rollno);
         System.out.println(name);
-        for (int i = 0; i <marks.length ; i++) {
+        for (int i = 0; i <marks.length ; i++)
+        {
             System.out.println(marks[i]);
         }
     }
@@ -32,10 +33,12 @@ public class Main {
     public static void main(String[] args) {
         // int arr1[]= new int[5];
         stu arr2[]= new stu[2];
-        for (int i = 0; i < arr2.length; i++) {
+        for (int i = 0; i < arr2.length; i++)
+        {
             arr2[i]= new stu();
         }
-        for (int i = 0; i <arr2.length ; i++) {
+        for (int i = 0; i <arr2.length ; i++)
+        {
             arr2[i].display();
         }
 
